@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import numpy as np
+
 def plot_decision_boundary(model, X, y,cmap=plt.cm.jet):
     """
     Given a model(a function) and a set of points(X), corresponding labels(y), scatter the points in X with color coding
